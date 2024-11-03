@@ -59,7 +59,7 @@
         }
         .header__repair::before{
             content: "";
-           background-image: url(/images/vertical-line.svg); 
+           background-image: url(../images/vertical-line.svg); 
            background-repeat: no-repeat;
            width: 2px;
            height: 32px;
@@ -81,7 +81,7 @@
         }
         .h1::before{
             content: "";
-            background-image: url(/images/highlight.svg); 
+            background-image: url(../images/highlight.svg); 
             background-repeat: no-repeat;
             width: 4px;
             height: 40px;
@@ -140,7 +140,7 @@
         }
         .discription__text__continue::before{
             content: "";
-            background-image: url(/images/down-arrow.svg); 
+            background-image: url(../images/down-arrow.svg); 
             background-repeat: no-repeat;
             width: 8px;
             height: 10px;
@@ -183,7 +183,7 @@
         }
         .header__menu::after{
             content: "";
-            background-image: url(/images/vertical-line.svg); 
+            background-image: url(../images/vertical-line.svg); 
             background-repeat: no-repeat;
             width: 2px;
             height: 32px;
@@ -234,15 +234,7 @@
         .discription__text__paragraph-2{
             display: inline;
         }
-        .discription__text__continue::before{
-            content: "";
-            background-image: url(/images/down-arrow.svg); 
-            background-repeat: no-repeat;
-            width: 8px;
-            height: 10px;
-            position:absolute;
-            left: 25px;
-        }
+        
         .entry-sign{
             width: 360px;
             margin: 0;
@@ -340,12 +332,6 @@
             display: inline;
         }
         .discription__text__continue::before{
-            content: "";
-            background-image: url(/images/down-arrow.svg); 
-            background-repeat: no-repeat;
-            width: 8px;
-            height: 10px;
-            position:absolute;
             left: 35px;
         }
         .entry-sign{
