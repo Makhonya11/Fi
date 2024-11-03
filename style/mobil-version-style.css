@@ -301,6 +301,10 @@
         .current{
             border: none;
         }
+        .services-list{
+            overflow-x: hidden;
+           
+        }
         .services-list__item:hover{
             height: 40px;
             border: 2px solid #B8FFEC;
