@@ -245,6 +245,9 @@
 
 @media screen and (min-width: 1120px)
 {
+        body{
+            width:1120px;
+        }
         .header{  
         width: 100%;
         height: 88px;
@@ -306,6 +309,7 @@
             padding-left: 16px;
         }
         .discription{
+            width:100%;
             font-family: "TTLakes Regular";  
             font-size: 14px;
             line-height: 20px;
@@ -335,7 +339,7 @@
             left: 35px;
         }
         .entry-sign{
-            width: 531px;
+            width: 100%;
             margin: 0;
         }
 }
