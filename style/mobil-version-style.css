@@ -323,7 +323,7 @@
             align-items: start;
         }
         .discription__image{
-            width: 50%;
+            max-width: 50%;
         }
         .discription__text{
             width: 50%;
@@ -340,7 +340,7 @@
             left: 35px;
         }
         .entry-sign{
-            width: 100%;
+            max-width: 100%;
             margin: 0;
         }
 }
