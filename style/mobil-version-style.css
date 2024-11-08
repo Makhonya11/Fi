@@ -21,7 +21,7 @@
     url("/style/fonts/TTLakes-Medium.woff") format('woff');
 }
 
-@media screen and (min-width: 320px){
+
     *{
         box-sizing: border-box;
         }
@@ -76,18 +76,20 @@
             font-size: 28PX;
             line-height: 40px;
             margin: 0;
-            margin-left: 12px;
+            
             color: #1B1C21;
+            
         }
-        .h1::before{
+        h1::before{
             content: "";
             background-image: url(../images/highlight.svg); 
             background-repeat: no-repeat;
             width: 4px;
             height: 40px;
-            position: absolute;
+            margin-right: 12px;
+            
         }
-        .h1{
+        h1{
             display: flex;
             align-items: center;
             margin-bottom: 24px;
@@ -168,7 +170,7 @@
         .discription__image{
             margin-left: -16px;
         }
-}
+
 
 /*BREAKPOINT 768PX*/
 
@@ -204,12 +206,10 @@
         .header__profile{
             margin-right: 20px;
         }
-        .h1{
+        h1{
             margin-bottom: 32px;
         }
-        h1{
-            margin-left: 20px;
-        }
+        
         .discription{
             font-family: "TTLakes Regular";  
             font-size: 14px;
@@ -245,7 +245,11 @@
 
 @media screen and (min-width: 1120px)
 {
-        .header{  
+    body{
+        width:1120px;
+        margin: 0 auto;
+    }   
+    .header{  
         width: 100%;
         height: 88px;
         padding: 18.59px 16px;     
@@ -288,7 +292,12 @@
             top: 42px;
         }
         h1{
-            margin-left: 32px;
+            margin-left: 25px;
+        }
+        h1::before{
+           
+            margin-right: 32px;
+            
         }
         .current{
             border: none;
@@ -305,20 +314,23 @@
             padding-right: 16px;
             padding-left: 16px;
         }
+        
         .discription{
             font-family: "TTLakes Regular";  
             font-size: 14px;
             line-height: 20px;
-            padding: 0 34px;
+            padding: 0 auto;
             margin: 0;
             margin-top: 48px;
             color: #1B1C21;
             display: flex;
             justify-content: space-between;
             align-items: start;
+           
         }
         .discription__image{
             width: 50%;
+            
         }
         .discription__text{
             width: 50%;
@@ -335,8 +347,9 @@
             left: 35px;
         }
         .entry-sign{
-            width: 531px;
+            max-width: 100%;
             margin: 0;
+            
         }
 }
    
