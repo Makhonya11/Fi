@@ -1,31 +1,31 @@
 @font-face {
     font-family: "TTLakes Regular";
     src: local("TTLakes-Regular"),
-    url("/style/fonts/TTLakes-Regular.woff") format('woff');
+    url("../style/fonts/TTLakes-Regular.woff") format('woff');
     font-weight: normal;
 }
 @font-face {
     font-family: "TTLakes Bold";
     src: local("TTLakes-Bold"),
-    url("/style/fonts/TTLakes-Bold.woff") format('woff');
+    url("../style/fonts/TTLakes-Bold.woff") format('woff');
     font-weight: bold;
 }
 @font-face {
     font-family: "TTLakes Italic";
     src: local("TTLakes-Italic"),
-    url("/style/fonts/TTLakes-Italic.woff") format('woff');
+    url("../style/fonts/TTLakes-Italic.woff") format('woff');
 }
 @font-face {
     font-family: "TTLakes Medium";
     src: local("TTLakes-Medium"),
-    url("/style/fonts/TTLakes-Medium.woff") format('woff');
+    url("../style/fonts/TTLakes-Medium.woff") format('woff');
 }
 
 
     *{
         box-sizing: border-box;
         }
-        body{
+        .body{
         background-color: #F8F8F8;
         width: 100%;
         margin: 0;
@@ -71,7 +71,7 @@
         .header__call, .header__chat, .header__profile, .application, .repair-status{
             display: none;
         }
-        h1{
+        .title{
             font-family: "TTLakes Bold";
             font-size: 28PX;
             line-height: 40px;
@@ -80,7 +80,7 @@
             color: #1B1C21;
             
         }
-        h1::before{
+        .title::before{
             content: "";
             background-image: url(../images/highlight.svg); 
             background-repeat: no-repeat;
@@ -89,7 +89,7 @@
             margin-right: 12px;
             
         }
-        h1{
+        .title{
             display: flex;
             align-items: center;
             margin-bottom: 24px;
@@ -206,7 +206,7 @@
         .header__profile{
             margin-right: 20px;
         }
-        h1{
+        .title{
             margin-bottom: 32px;
         }
         
@@ -246,8 +246,8 @@
 @media screen and (min-width: 1120px)
 {
 
-    body{
-        width:1120px;
+    .body{
+        width:80%;
         margin: 0 auto;
     }   
      
@@ -289,14 +289,14 @@
           display: none;
            
         }
-        main{
+        .main{
             position: absolute;
             top: 42px;
         }
-        h1{
+        .title{
             margin-left: 25px;
         }
-        h1::before{
+        .title::before{
            
             margin-right: 32px;
             
