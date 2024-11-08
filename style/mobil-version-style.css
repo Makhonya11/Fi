@@ -245,11 +245,19 @@
 
 @media screen and (min-width: 1120px)
 {
+<<<<<<< HEAD
     body{
         width:1120px;
         margin: 0 auto;
     }   
     .header{  
+=======
+        body{
+            width:1120px;
+            margin:0 auto;
+        }
+        .header{  
+>>>>>>> 7dc4eff1dc304dd025fdbc35d7c59f679b5a7411
         width: 100%;
         height: 88px;
         padding: 18.59px 16px;     
@@ -316,6 +324,7 @@
         }
         
         .discription{
+            width:100%;
             font-family: "TTLakes Regular";  
             font-size: 14px;
             line-height: 20px;
@@ -329,8 +338,12 @@
            
         }
         .discription__image{
+<<<<<<< HEAD
             width: 50%;
             
+=======
+            max-width: 50%;
+>>>>>>> 7dc4eff1dc304dd025fdbc35d7c59f679b5a7411
         }
         .discription__text{
             width: 50%;
