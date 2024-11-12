@@ -189,7 +189,12 @@
             margin-top: 0;
         }
         .discription__image{
+            width:100%;
             margin-left: -16px;
+        }
+        .entry-sign{
+            width:100%;
+            margin:0;
         }
 
 
