@@ -100,6 +100,7 @@
             font-size: 28PX;
             line-height: 40px;
             margin: 0;
+            margin-top: 24px;
             color: #1B1C21;
         }
         .title::before{
@@ -329,7 +330,7 @@
         }
         .title::before{
             margin-right: 30px;
-            margin-left: -35px;
+            margin-left: 0;
         }
         .services-list{
             overflow-x: hidden;
